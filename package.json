@@ -1,14 +1,10 @@
 {
-  "name": "flyingfox-react",
+  "name": "cra-template-flyingfox-react",
   "version": "1.0.0",
   "description": "This is a ReactJS BoilerPlate with a custom design for use within Flying-Fox applications. Feel free to use within personal projects and raise any issues or PRs to improve on this.",
   "main": "template.json",
-  "scripts": {
-    "start": "webpack-dev-server --mode=development --open --hot",
-    "build": "webpack --mode=production",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -27,24 +23,5 @@
   "bugs": {
     "url": "https://github.com/flyingfox202021-gmail-com/FlyingFox-React/issues"
   },
-  "homepage": "https://github.com/flyingfox202021-gmail-com/FlyingFox-React#readme",
-  "dependencies": {
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.17.10",
-    "@babel/preset-env": "^7.17.10",
-    "@babel/preset-react": "^7.16.7",
-    "babel-loader": "^8.2.5",
-    "css-loader": "^6.7.1",
-    "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.5.0",
-    "jest": "^28.0.3",
-    "style-loader": "^3.3.1",
-    "svg-url-loader": "^7.1.1",
-    "webpack": "^5.72.0",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.8.1"
-  }
+  "homepage": "https://github.com/flyingfox202021-gmail-com/FlyingFox-React#readme"
 }
